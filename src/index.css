@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-display: 'Inter', system-ui, sans-serif;
+}
+
+@layer base {
+  :root {
+    --background: #f4f6f8;
+    --foreground: #0f172a;
+    --primary: #c5f82a;
+    --primary-foreground: #0f172a;
+    --card: #ffffff;
+    --card-foreground: #0f172a;
+    --border: #e2e8f0;
+    --accent: #0f172a;
+    --accent-foreground: #ffffff;
+  }
+
+  .dark {
+    --background: #0f172a;
+    --foreground: #f8f9fa;
+    --primary: #c5f82a;
+    --primary-foreground: #0f172a;
+    --card: #1e293b;
+    --card-foreground: #f8f9fa;
+    --border: #334155;
+    --accent: #ffffff;
+    --accent-foreground: #0f172a;
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground font-sans antialiased transition-colors duration-300;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-card rounded-[2rem] shadow-sm border border-border;
+  }
+  .glass-panel {
+    @apply bg-card rounded-[2rem] shadow-md border border-border;
+  }
+  .text-gradient {
+    @apply text-foreground;
+  }
+}

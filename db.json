@@ -1,0 +1,69 @@
+{
+  "content": {
+    "heroTitle": "Execution When It Matters Most.",
+    "heroSubtitle": "Strategic financial consulting and operational architecture for high-growth businesses.",
+    "aboutText": "With over 19 years of experience across industries, including 13 years at Hike, I've operated as the person founders rely on when execution matters most.",
+    "aboutText2": "I joined as a Finance Manager and went on to serve as Chief Financial Officer, building and leading the finance function through every stage of growth. During that time, I built the finance organization from the ground up, co-led fundraising and M&A transactions end-to-end, supported a business pivot that scaled to ~US$500M GMV. Managed the financial and operational architecture of the transition."
+  },
+  "benefits": [
+    {
+      "id": "1",
+      "title": "Pitch Deck Making",
+      "description": "Comprehensive pitch deck creation including financial modeling, market sizing, and narrative structuring for Series A/B rounds.",
+      "price": "$5,000",
+      "basePrice": "$7,500"
+    },
+    {
+      "id": "2",
+      "title": "1-to-1 Financial Report Discussion",
+      "description": "Deep dive into your monthly/quarterly financials to identify operational bottlenecks and growth levers.",
+      "price": "$500",
+      "basePrice": "$800"
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "title": "Financial Architecture",
+      "description": "Building robust finance organizations from the ground up to support massive scale."
+    },
+    {
+      "id": "2",
+      "title": "Multi-jurisdictional",
+      "description": "Managing complex entity structures, compliance, and operations across global markets."
+    },
+    {
+      "id": "3",
+      "title": "Strategic Governance",
+      "description": "Cross-functional leadership spanning legal, business development, and governance."
+    }
+  ],
+  "faqs": [
+    {
+      "id": "1",
+      "question": "What is your typical engagement model?",
+      "answer": "We typically engage on a retainer basis for fractional CFO services or on a project basis for specific M&A or fundraising transactions."
+    },
+    {
+      "id": "2",
+      "question": "Do you work with startups?",
+      "answer": "Yes, we specialize in high-growth startups from Series A through pre-IPO stages."
+    },
+    {
+      "id": "3",
+      "question": "How do you handle multi-jurisdictional compliance?",
+      "answer": "With extensive experience across the US, GCC, and India, we build scalable entity structures and partner with local legal experts to ensure full compliance while optimizing tax and operational efficiency."
+    },
+    {
+      "id": "4",
+      "question": "Can you help us prepare for a Series B fundraise?",
+      "answer": "Absolutely. We manage the entire process from financial modeling and narrative structuring to investor outreach, due diligence, and deal negotiation."
+    },
+    {
+      "id": "5",
+      "question": "What is the difference between a Fractional CFO and an Interim CFO?",
+      "answer": "A Fractional CFO works with you part-time on a long-term basis to provide strategic guidance. An Interim CFO steps in full-time for a short period to bridge a leadership gap or manage a specific transition."
+    }
+  ],
+  "contacts": []
+}
